@@ -1,0 +1,36 @@
+.primary-button {
+    @include button($themeBasicColor1, $normalFontSize);
+}
+
+.success-button {
+    @include button($successColor, $normalFontSize);
+}
+
+.danger-button {
+    @include button($dangerColor, $normalFontSize);
+}
+
+.error-button {
+    @include button($errorColor, $normalFontSize);
+}
+
+.info-button {
+    @include button($infoColor, $normalFontSize);
+}
+
+.warning-button {
+    @include button($warningColor, $normalFontSize);
+}
+
+.light-button {
+    @include button($lightColor, $normalFontSize);
+    color: $darkColor;
+}
+
+.dark-button {
+    @include button($darkColor, $normalFontSize);
+}
+
+.small-success-button {
+    @include button($successColor, $smallFontSize)
+}

@@ -1,0 +1,48 @@
+$theme: "default";
+
+$themeBasicColor1: #0444bf !default;
+$themeBasicColor2: #95afba !default;
+$themeBasicColor3: #bdc4a7 !default;
+$themeBasicColor4: #d5e1a3 !default;
+$themeBasicColor5: #e2f89c !default;
+
+// theme colors
+
+@if $theme == "light" {
+  $themeBasicColor1: #F1BF98;
+  $themeBasicColor2: #E1F4CB;
+  $themeBasicColor3: #BACBA9;
+  $themeBasicColor4: #717568;
+  $themeBasicColor5: #3F4739;
+}
+
+// basic colors
+
+$primaryColor: $themeBasicColor1;
+$secondarycolor: $themeBasicColor4;
+$successColor: #4bb543;
+$errorColor: #ff9494;
+$dangerColor: #f05837;
+$infoColor: #47c0ba;
+$warningColor: #ffc107;
+$lightColor: #f8f9fa;
+$darkColor: #343a40;
+$disabledColor: #d3d3d3;
+
+// hyperlink colors
+
+$activeColor: $themeBasicColor1;
+$onHoverColor: $themeBasicColor4;
+
+// navbar active color
+
+$navBarActiveColor: #4caf50;
+
+// chip color
+
+$chipBackgroundColor: #4dbd33;
+$chipTextColor: $lightColor;
+
+
+//scroll bar colors
+$scroll-bar-color: #d3d3d3

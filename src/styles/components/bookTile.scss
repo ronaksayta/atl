@@ -1,0 +1,23 @@
+.bookTile {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    a {
+        text-decoration: none;
+        color: $darkColor;
+        &:hover {
+            text-decoration: none;
+            color: $darkColor;
+        }
+    }
+  img {
+      height: 10rem;
+      margin-left: 5%;
+      margin-right: 5%;
+      margin-top: 1rem;
+      width: 90%;
+  }
+  &:hover {
+    transform: scale(1.05);
+  }
+}

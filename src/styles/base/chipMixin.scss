@@ -1,0 +1,8 @@
+@mixin chip {
+  display: inline-block;
+  padding: 0.01rem 1rem;
+  font-size: 16px;
+  border-radius: 15px;
+  background-color: $chipBackgroundColor;
+  color: $chipTextColor;
+}

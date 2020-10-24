@@ -1,0 +1,45 @@
+@mixin card($cardColor1, $cardColor2) {
+  .book-card-title {
+    $font-size: 1rem;
+    $line-height: 1.4;
+    $lines-to-show: 2;
+    display: block; /* Fallback for non-webkit */
+    max-width: 100%;
+    display: -webkit-box;
+    padding-left: 1rem;
+    padding-right: 1rem;    
+    text-align: left;
+    height: $font-size * $line-height * $lines-to-show;
+    font-size: $font-size;
+    line-height: $line-height;
+    -webkit-line-clamp: $lines-to-show;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .book-card-author {
+    padding-left: 1rem;
+    text-align: left;
+    font-size: 0.8rem;
+  }
+  .book-card-image {
+    padding: 1rem;
+    height: 14rem;
+    width: 100%;
+  }
+  margin: 1rem;
+  height: 20rem;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px darken($cardColor1, 10);
+  cursor: pointer;
+  &:hover {
+      a {
+          text-decoration: none;
+      }
+    transform: scale(1.05);
+    transition: 0.3s;
+    box-shadow: 0 2px 6px darken($cardColor2, 10);
+    cursor: pointer;
+  }
+}

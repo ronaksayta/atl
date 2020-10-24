@@ -1,0 +1,23 @@
+.bookCard {
+    .bookImage {
+       margin: 1rem;
+       height: 12rem;
+       width: 8rem;
+   }
+   .bookData {
+       margin: 1rem;
+       text-align: left;
+       .disabled {
+           color: $disabledColor;
+       }
+   }
+   .ratingChip {
+       @include chip;
+   }
+   .bookDescription {
+        font-size: 0.7rem;
+   }
+   .bookLabel {
+       font-weight: bold;
+   }
+}

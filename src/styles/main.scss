@@ -1,0 +1,19 @@
+// variables
+@import './variables/colors.scss';
+@import './variables/fontSizes.scss';
+
+// base or mixins
+@import './base/buttonMixins.scss';
+@import './base/cardMixins.scss';
+@import './base/chipMixin.scss';
+
+// base layouts added
+@import './layout/header.scss';
+@import './layout/scrollBar.scss';
+
+// components added
+@import './components/bookCard.scss';
+@import './components/buttons.scss';
+@import './components/bookDetails.scss';
+@import './components/bookGrid.scss';
+@import './components/bookTile.scss';
